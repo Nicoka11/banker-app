@@ -7,7 +7,7 @@
 		isDark = !isDark;
 
 		const themeAsString = isDark ? "dark" : "light";
-		document.documentElement.dataset.theme = themeAsString;
+		document.documentElement.classList.toggle("dark");
 		document.cookie = `siteTheme=${themeAsString};max-age=31536000;path="/"`;
 	}
 
@@ -15,6 +15,8 @@
 		bg: "main.3",
 		borderRadius: "lg",
 		p: "3",
+		cursor: "pointer",
+		color: "main.12",
 		_hover: {
 			bg: "main.4"
 		}
