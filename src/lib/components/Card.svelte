@@ -1,7 +1,15 @@
 <script lang="ts">
-	import { css } from "styled-system/css";
+	import { flex } from "styled-system/patterns/flex";
 </script>
 
-<div class={css({ p: "3", bg: "main.6" })}>
+<div
+	class={`${flex({
+		p: "3",
+		bg: "main.3",
+		borderRadius: "md",
+		direction: "column",
+		width: "full"
+	})} ${$$props.class || ""}`}
+>
 	<slot />
 </div>
