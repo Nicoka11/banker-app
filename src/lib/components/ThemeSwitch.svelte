@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { button } from "$lib/styles";
-	import { css } from "styled-system/css";
 
 	let isDark: boolean = false;
 
@@ -12,6 +10,4 @@
 	}
 </script>
 
-<button on:click={switchTheme} class={`${css(button.primary)} ${$$props.class || ""}`}
-	>Theme switcher</button
->
+<button on:click={switchTheme}>Theme switcher</button>

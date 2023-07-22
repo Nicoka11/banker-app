@@ -3,7 +3,6 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"prepare": "panda codegen",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -16,7 +15,6 @@
 		"test:unit": "vitest"
 	},
 	"devDependencies": {
-		"@pandacss/dev": "^0.6.0",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
