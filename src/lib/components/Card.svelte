@@ -4,7 +4,7 @@
 
 <div
 	class={`${flex({
-		p: "3",
+		p: "6",
 		bg: "main.3",
 		borderRadius: "md",
 		direction: "column",
