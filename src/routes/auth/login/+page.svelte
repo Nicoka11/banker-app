@@ -11,8 +11,8 @@
 	<Container >
 		<Card >
 			<form >
-				<h1>Login</h1>
-				<input placeholder="email" type="email"  />
+				<h1 class="bg-mad-1">Login</h1>
+				<input placeholder="email" type="email" class="b-main-" />
 				<input placeholder="password" type="password"  />
 				<input type="submit" value="login" />
 			</form>
