@@ -1,7 +1,17 @@
-import { defineConfig } from "unocss";
+import { defineConfig, presetWebFonts } from "unocss";
 import { mint, mintA, mintDark, mintDarkA, sage, sageA, sageDark, sageDarkA } from "./theme/colors";
 
 export default defineConfig({
+	presets: [
+		presetWebFonts({
+			provider: "fontshare",
+			fonts: {
+				heading: "Cabinet Grotesk",
+				body: "Satoshi",
+				mono: "JetBrains Mono"
+			}
+		})
+	],
 	theme: {
 		colors: {
 			//main
