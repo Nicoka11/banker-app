@@ -1,5 +1,7 @@
 <script>
-	import '../app.css';
+	import "../app.css";
 </script>
 
-<slot />
+<main class="bg-g-1 dark:bg-gd-1 c-g-12 dark:c-gd-12 min-h-screen">
+	<slot />
+</main>

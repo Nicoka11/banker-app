@@ -2,11 +2,6 @@
 
 @layer reset, base, tokens, recipes, utilities;
 
-body {
-	background-color: var(--colors-main-1);
-	color: var(--colors-main-12);
-}
-
 * {
 	transition-property: background, color;
 	transition: ease 0.3s;

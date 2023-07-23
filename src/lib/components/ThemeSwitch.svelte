@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	let isDark: boolean = false;
 
 	function switchTheme() {
@@ -10,4 +9,6 @@
 	}
 </script>
 
-<button on:click={switchTheme}>Theme switcher</button>
+<button on:click={switchTheme} class="bg-m-9 hover:bg-m-10 dark:bg-md-9 dark:hover:bg-md-10 p-3 rounded-2 border-none"
+	>Theme switcher</button
+>
